@@ -13,6 +13,14 @@
 		<video width="320" height="240" controls webkit-playsinline>
 			<source src="file:///android_asset/www/mov_bbb.mp4" type="video/mp4">
 		</video>
+        <video width="320" height="240" controls webkit-playsinline>
+			<source src="mov_bbb.mp4" type="video/mp4">
+		</video>
+        <script>
+        	var myFilename = "mov_bbb.mp4";
+			var myUrl = cordova.file.applicationDirectory + "www/" + myFilename;
+			alert (myUrl)
+        </script>
 	</P>
 
   </body>

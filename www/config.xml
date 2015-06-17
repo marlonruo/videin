@@ -29,6 +29,7 @@
 	<preference name="SplashScreenDelay" value="7000"/>
 	
 	<preference name="KeepRunning" value="true"/>
+	<preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,root" />
 	
 	<icon src="icon.png"/>
 	
